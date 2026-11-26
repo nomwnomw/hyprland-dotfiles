@@ -28,6 +28,8 @@ Documents/*
 !Documents/*.md
 
 !Screenshots/
+!Screenshots/*
+
 !.zshrc
 !.zshenv
 !.zprofile

@@ -28,7 +28,7 @@ hl.monitor({
 ---- MY PROGRAMS ----
 ---------------------
 
-local terminal    = "kitty"
+local terminal    = "alacritty"
 local fileManager = "dolphine"
 local browser     = "firefox"
 local menu        = "wofi --show drun --style ~/.config/wofi/menu.css"
