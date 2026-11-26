@@ -10,7 +10,7 @@ My personal dotfiles for an Artix Linux + Hyprland setup. Themes around a minima
 - **OS:** Artix Linux
 - **Compositor:** Hyprland
 - **Bar:** Waybar
-- **Terminal:** Kitty
+- **Terminal:** Alacritty
 - **Launcher:** Wofi
 - **Shell:** zsh (oh-my-zsh)
 - **GTK theming:** gtk-3.0 / gtk-4.0 + fontconfig
@@ -22,14 +22,14 @@ My personal dotfiles for an Artix Linux + Hyprland setup. Themes around a minima
 .
 ├── .zshrc
 └── .config/
-    ├── hypr/          # Hyprland compositor config
-    ├── waybar/        # bar config + styles
-    ├── wofi/          # app launcher
-    ├── kitty/         # terminal emulator
-    ├── fastfetch/     # system info fetch
-    ├── btop/          # resource monitor
-    ├── fontconfig/    # font settings
-    └── gtk-3.0/ gtk-4.0/  # GTK look & feel
+    ├── hypr/               # Hyprland compositor config
+    ├── waybar/             # bar config + styles
+    ├── wofi/               # app launcher
+    ├── alacritty/          # terminal emulator
+    ├── fastfetch/          # system info fetch
+    ├── btop/               # resource monitor
+    ├── fontconfig/         # font settings
+    └── gtk-3.0/ gtk-4.0/   # GTK look & feel
 ```
 
 ## Installation
@@ -49,7 +49,7 @@ Then symlink or copy the pieces you want, e.g.:
 ln -s ~/hyprland-dotfiles/.zshrc ~/.zshrc
 ln -s ~/hyprland-dotfiles/.config/hypr ~/.config/hypr
 ln -s ~/hyprland-dotfiles/.config/waybar ~/.config/waybar
-ln -s ~/hyprland-dotfiles/.config/kitty ~/.config/kitty
+ln -s ~/hyprland-dotfiles/.config/alacritty ~/.config/alacritty
 ln -s ~/hyprland-dotfiles/.config/wofi ~/.config/wofi
 ```
 
@@ -64,13 +64,10 @@ stow -t ~ .
 Rough list of packages the setup expects (Arch/Artix package names):
 
 ```
-hyprland waybar kitty wofi zsh grim slurp wl-clipboard btop fastfetch
+hyprland waybar alacritty wofi zsh grim slurp wl-clipboard btop fastfetch
 ```
 
 Adjust to your distro's packaging.
 
-## Notes
 
-- Screenshots: `grim` + `slurp`, bound in the Hyprland config.
-- Secrets (tokens, API keys) are intentionally kept out of the repo — sensitive files are sourced locally and never committed.
 

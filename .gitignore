@@ -9,7 +9,7 @@
 !.config/hypr/
 !.config/waybar/
 !.config/wofi/
-!.config/kitty/
+!.config/alacritty/
 !.config/fastfetch/
 !.config/btop/
 !.config/fontconfig/
