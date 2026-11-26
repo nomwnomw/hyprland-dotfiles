@@ -27,8 +27,7 @@ Documents/*
 !Documents/**/
 !Documents/*.md
 
+!Screenshots/
 !.zshrc
 !.zshenv
 !.zprofile
-!.bashrc
-!.bash_profile
