@@ -1,0 +1,24 @@
+# $HOME/.config/alacritty/alacritty.toml
+
+[window]
+
+opacity = 0.9
+
+padding.x = 10
+padding.y = 10
+
+decorations = "Full"
+decorations_theme_variant = "Light" # "Dark"
+
+[font]
+
+normal.family = "JetBrains Mono Nerd Font"
+bold.family = "JetBrains Mono Nerd Font"
+italic.family = "JetBrains Mono Nerd Font"
+bold_italic.family = "JetBrains Mono Nerd Font"
+
+size = 14.0
+
+[colors.primary]
+background = "#1a1b26"
+foreground = "#c0caf5"
