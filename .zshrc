@@ -102,7 +102,13 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-#
+# eza
+alias ls="eza --group-directories-first --icons=auto"
+alias ll="eza -al --group-directories-first --icons=auto --git"
+alias la="eza -a --group-directories-first --icons=auto"
+alias lt="eza -aT --group-directories-first --icons=auto --level=2"   # tree
+alias llt="eza -alT --group-directories-first --icons=auto --level=2"
+alias lm="eza -al --sort=modified --group-directories-first --icons=auto"
 #
 # func
 function reload_gtk_theme() {

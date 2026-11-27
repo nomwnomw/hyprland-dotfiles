@@ -33,3 +33,7 @@ Documents/*
 !.zshrc
 !.zshenv
 !.zprofile
+
+*.ovpn
+auth.txt
+.openvpn.auth
