@@ -9,6 +9,7 @@ export PATH="$HOME/.local/bin:$PATH"
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 ZSH_THEME=sorin
+EDITOR=nvim
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -123,7 +124,6 @@ function reload_gtk_theme() {
 }
 #
 # AUTOSTART
-# Get the current hour in 24-hour format
 hour=$(date +"%H")
 
 # Define time ranges
