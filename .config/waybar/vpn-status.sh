@@ -1,6 +1,6 @@
 #!/bin/bash
 if pgrep -x openvpn >/dev/null; then
-    echo '󰯄 on'
+    echo '{"text": "󰯄 on", "class": "on"}'
 else
-    echo ' off'
+    echo '{"text": " off", "class": "off"}'
 fi

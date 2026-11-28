@@ -112,6 +112,8 @@ alias lm="eza -al --sort=modified --group-directories-first --icons=auto"
 #
 #
 alias ip="~/Documents/ip-lookup.sh"
+#
+alias cpfile='wl-copy <'
 # func
 function reload_gtk_theme() {
   theme=$(gsettings get org.gnome.desktop.interface gtk-theme)
@@ -121,4 +123,27 @@ function reload_gtk_theme() {
 }
 #
 # AUTOSTART
-tty-clock
+# Get the current hour in 24-hour format
+hour=$(date +"%H")
+
+# Define time ranges
+morning_start=5    # 5 AM
+morning_end=11     # 11 AM
+afternoon_start=12 # 12 PM
+afternoon_end=17   # 5 PM
+
+
+# Check the time of day and print a message
+if [ "$hour" -ge "$morning_start" ] && [ "$hour" -le "$morning_end" ]; then
+    greeting="Good morning"
+elif [ "$hour" -ge "$afternoon_start" ] && [ "$hour" -le "$afternoon_end" ]; then
+    greeting="Good afternoon"
+else
+    greeting="Good evening"
+fi
+
+ echo " ___"
+ echo "|[_]|"
+ echo "|+ ;|  ✦ $greeting, Alt! ✦" # string interpolation
+ echo "\`---'"
+ echo ""

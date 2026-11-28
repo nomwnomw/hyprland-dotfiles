@@ -21,6 +21,7 @@
    "custom/vpn": {
     "exec": "~/.config/waybar/vpn-status.sh",
     "interval": 3,
+    "return-type": "json",
     "on-click": "~/.config/waybar/vpn-toggle.sh",
     "tooltip": false
    },
