@@ -43,6 +43,7 @@ hl.exec_cmd("swaybg -i ~/Pictures/Wallpapers/oni.png -m fill &")
 hl.exec_cmd("dbus-update-activation-environment --all")
 hl.exec_cmd("waybar")
 hl.exec_cmd("dunst")
+hl.exec_cmd(terminal)
 end)
 
 -------------------------------

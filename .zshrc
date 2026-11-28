@@ -3,7 +3,7 @@
 
 # Path to your Oh My Zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
-
+export PATH="$HOME/.local/bin:$PATH"
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time Oh My Zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
@@ -110,6 +110,8 @@ alias lt="eza -aT --group-directories-first --icons=auto --level=2"   # tree
 alias llt="eza -alT --group-directories-first --icons=auto --level=2"
 alias lm="eza -al --sort=modified --group-directories-first --icons=auto"
 #
+#
+alias ip="~/Documents/ip-lookup.sh"
 # func
 function reload_gtk_theme() {
   theme=$(gsettings get org.gnome.desktop.interface gtk-theme)
@@ -119,3 +121,4 @@ function reload_gtk_theme() {
 }
 #
 # AUTOSTART
+tty-clock

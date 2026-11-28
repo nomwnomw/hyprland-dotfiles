@@ -15,17 +15,13 @@
 !.config/fontconfig/
 !.config/gtk-3.0/
 !.config/gtk-4.0/
+!.config/nvim/
 
 !.local/
 .local/*
 !.local/share/
 .local/share/*
 !.local/share/fonts/
-
-!Documents/
-Documents/*
-!Documents/**/
-!Documents/*.md
 
 !Screenshots/
 !Screenshots/*

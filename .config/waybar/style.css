@@ -105,8 +105,8 @@ window#waybar.hidden {
     transition: all 0.2s ease-in-out;
 }
 
-#custom-vpn.on { color: #a6e3a1; }
-#custom-vpn.off { color: #6c7086; }
+#custom-vpn.on { color: #a6e3a1; background-color: red; }
+#custom-vpn.off { color: #6c7086; background-color: blue; }
 
 /* === Individual Background Colors (reversed) === */
 #memory { color: #f9e2af; }

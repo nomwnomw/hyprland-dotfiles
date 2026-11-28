@@ -16,22 +16,6 @@ My personal dotfiles for an Artix Linux + Hyprland setup. Themes around a minima
 - **GTK theming:** gtk-3.0 / gtk-4.0 + fontconfig
 - **System monitors:** btop, fastfetch
 
-## Structure
-
-```
-.
-├── .zshrc
-└── .config/
-    ├── hypr/               # Hyprland compositor config
-    ├── waybar/             # bar config + styles
-    ├── wofi/               # app launcher
-    ├── alacritty/          # terminal emulator
-    ├── fastfetch/          # system info fetch
-    ├── btop/               # resource monitor
-    ├── fontconfig/         # font settings
-    └── gtk-3.0/ gtk-4.0/   # GTK look & feel
-```
-
 ## Installation
 
 > Always review scripts/configs before running them. These are my personal configs — copy selectively rather than blindly replacing your own.
